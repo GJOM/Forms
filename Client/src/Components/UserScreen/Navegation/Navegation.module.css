@@ -1,0 +1,42 @@
+header {
+    background: #373737;
+    color: #eee;
+    width: 100vw;
+    min-height: 60px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 20px;
+}
+
+.header-nav {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.header-nav span, .logout {
+    width: 100px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.header-nav span:hover, .logout:hover {
+    background: #eee;
+    color: #191919;
+}
+
+.header-nav span:active, .logout:active{
+    background-color: #ccc;
+}
